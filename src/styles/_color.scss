@@ -1,0 +1,168 @@
+//------------------------------------------------------------------------------------------------
+// Start Of Background Color
+
+
+//-----------------------------------------------------------
+// Basic Background Color 
+//-----------------------------------------------------------
+
+
+.primary-bg {
+    background-color: $primaryClr;
+}
+
+.secondary-bg {
+    background-color: $secondaryClr;
+}
+
+.success-bg {
+    background-color: $successClr;
+}
+
+.danger-bg {
+    background-color: $dangerClr;
+}
+.warning-bg {
+    background-color: $warningClr;
+}
+.info-bg {
+    background-color: $infoClr;
+}
+.dark-bg {
+    background-color: $darkClr;
+}
+.light-bg {
+    background-color: $lightClr;
+}
+
+.body-bg{
+    background-color: $bgClr;
+}
+.body-bg2{
+    background-color: $bgClr2;
+}
+
+//-----------------------------------------------------------
+// Light Background Color 
+//-----------------------------------------------------------
+
+
+.lightPrimary-bg {
+    background-color: $primaryLight;
+}
+
+.lightSecondary-bg {
+    background-color: $secondaryLight;
+}
+
+.lightSuccess-bg {
+    background-color: $successLight;
+}
+
+.lightDanger-bg {
+    background-color: $dangerLight;
+}
+.lightWarning-bg {
+    background-color: $warningLight;
+}
+.lightInfo-bg {
+    background-color: $infoLight;
+}
+.lightDark-bg {
+    background-color: $darkLight;
+}
+.lightLight-bg {
+    background-color: $lightLight;
+}
+
+//----------------------------------------------------
+// Gradient Background Color
+//----------------------------------------------------
+
+.primary-grad{
+    background: $primaryGradient;
+}
+.success-grad{
+    background: $successGradient;
+}
+.danger-grad{
+    background: $dangerGradient;
+}
+.warning-grad{
+    background: $warningGradient;
+}
+.info-grad{
+    background: $infoGradient;
+}
+
+
+
+.infoS1-bg{
+    background-color: $infoS1;
+}
+.infoS2-bg{
+    background-color: $infoS2;
+}
+.infoS3-bg{
+    background-color: $infoS3;
+}
+.infoS4-bg{
+    background-color: $infoS4;
+}
+
+
+//End Of Background Class
+//--------------------------------------------------------------------------------------------------
+
+
+
+
+//--------------------------------------------------------------------------------------------------
+//Start Of Text Color Class
+
+//---------------------------------------------------
+// Basic Text color
+//---------------------------------------------------
+
+.primary-text{
+    color: $primaryClr;
+}
+.secondary-text{
+    color: $secondaryClr;
+}
+.success-text{
+    color: $successClr;
+}
+.danger-text{
+    color: $dangerClr;
+}
+.warning-text{
+    color: $warningClr;
+}
+.info-text{
+    color: $infoClr;
+}
+.light-text{
+    color: $lightClr;
+}
+.dark-text{
+    color: $dangerClr
+}
+
+
+
+//---------------------------------------------------
+// Light Text color
+//---------------------------------------------------
+
+
+
+
+
+
+
+
+
+//End Of Text Color Class
+//--------------------------------------------------------------------------------------------------
+

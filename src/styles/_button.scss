@@ -1,0 +1,101 @@
+.primary-btn{
+    background-color:$primaryClr;
+
+    &:hover{
+       background-color:$primaryS2;
+    }
+    &:active{
+       background-color:$primaryS4;
+    }
+    &:focus{
+       background-color:$primaryS4
+    }
+}
+
+.secondary-btn{
+   background-color:$secondaryClr;
+
+    &:hover{
+       background-color:$secondaryS2;
+    }
+    &:active{
+       background-color:$secondaryS4;
+    }
+    &:focus{
+       background-color:$secondaryS4
+    }
+}
+
+.success-btn{
+   background-color:$successClr;
+
+    &:hover{
+       background-color:$successS2;
+    }
+    &:active{
+       background-color:$successS4;
+    }
+    &:focus{
+       background-color:$successS4
+    }
+}
+
+
+.warning-btn{
+   background-color:$warningClr;
+
+    &:hover{
+       background-color:$warningS2;
+    }
+    &:active{
+       background-color:$warningS4;
+    }
+    &:focus{
+       background-color:$warningS4
+    }
+}
+
+
+.danger-btn{
+   background-color:$dangerClr;
+
+    &:hover{
+       background-color:$dangerS2;
+    }
+    &:active{
+       background-color:$dangerS4;
+    }
+    &:focus{
+       background-color:$dangerS4
+    }
+}
+
+
+.info-btn{
+   background-color:$infoClr;
+
+    &:hover{
+       background-color:$infoS2;
+    }
+    &:active{
+       background-color:$infoS4;
+    }
+    &:focus{
+       background-color:$infoS4
+    }
+}
+
+
+.dark-btn{
+    background-color:$darkClr;
+ 
+     &:hover{
+        background-color:$darkS2;
+     }
+     &:active{
+        background-color:$darkS4;
+     }
+     &:focus{
+        background-color:$darkS4
+     }
+ }

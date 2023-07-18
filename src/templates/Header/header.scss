@@ -1,0 +1,30 @@
+@import '../../styles/variables'; 
+.profileDropdown{
+    left: auto;
+    right: 30px;
+    top: 69px;
+    width: 200px;
+    height:0px;
+    overflow: hidden;
+    transition:all .4s ease;
+    ul {
+
+       li{
+        
+        &:hover{
+          background-color:$secondaryS4;
+        }
+       }
+    }
+   .logout{
+    &:hover{
+      background-color: $dangerS4;
+    }
+   }
+}
+
+.animation{
+  height: 200px;
+}
+
+

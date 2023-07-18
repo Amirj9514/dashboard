@@ -1,0 +1,175 @@
+input {
+  background: $bgClr !important;
+  border: 1px solid $borderClr !important;
+  color: $secondaryClr !important;
+  padding: 12px 20px !important;
+  border-radius: 8px !important;
+
+
+  &:hover {
+    border-color: $lightClr !important;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    border-color: $primaryClr !important;
+  }
+}
+
+
+// large Dropdown 
+
+.p-dropdown {
+  background: $bgClr;
+  color: $secondaryClr;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid $borderClr !important;
+
+  .p-dropdown-label {
+    color: $secondaryClr;
+  }
+
+  &:hover {
+    border-color: $lightClr !important;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    border-color: $primaryClr !important;
+  }
+}
+
+.p-inputwrapper-focus {
+  box-shadow: none !important;
+  border-color: $primaryClr !important;
+  ;
+}
+
+
+// Large Multiselect Dropdown
+
+.p-multiselect {
+  background: $bgClr;
+  color: $secondaryClr;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid $borderClr !important;
+
+  .p-multiselect-label {
+    color: $secondaryClr;
+  }
+
+  &:hover { 
+    border-color: $lightClr !important;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    border-color: $primaryClr !important;
+  }
+}
+
+.p-multiselect-header{
+  background-color: $bgClr2 !important;
+  color: $secondaryClr !important;
+
+  .p-multiselect-close{
+    color:$dangerClr !important;
+  }
+}
+
+.p-multiselect-items-wrapper{
+  background-color: $bgClr !important ;
+
+  .p-multiselect-item{
+  color: $secondaryClr !important;
+
+    &:hover{
+    background-color: $primaryLight !important;
+    color: $primaryClr !important;
+    }
+  }
+  .p-highlight{
+    background-color: $primaryClr !important;
+    color: $whiteColor !important;
+    box-shadow: none !important;
+    pointer-events: none;
+  }
+}
+
+
+
+// checkbox 
+
+
+.p-checkbox .p-checkbox-box{
+  border:1px solid $borderClr;
+  background-color: $bgClr;
+}
+
+
+
+// multiselect Chips 
+
+.p-multiselect-token{
+
+  background-color: $primaryLight !important;
+  color:  $primaryClr !important;
+
+  // .p-multiselect-token-label{
+  // }
+}
+
+
+// large Text area 
+
+.textareaLg {
+  background: $bgClr;
+  color: $secondaryClr;
+  padding: 15px !important;
+  border: 1px solid $borderClr;
+  border-radius: 8px;
+  font-size: 16px;
+
+  &:hover {
+    border-color: $lightClr;
+  }
+
+  &:focus {
+    border-color: $primaryClr;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+
+
+// Text editor 
+
+.p-editor-container {
+  .p-editor-toolbar{
+    background: $bgClr2 !important;
+    border : 1px solid $borderClr !important;
+    color: $secondaryClr !important;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+    padding: 15px !important;
+  }
+
+  .p-editor-content .ql-editor{
+    background: $bgClr !important;
+    color: $secondaryClr !important;
+    font-size: 16px !important;
+    border: 1px solid $borderClr !important;
+  }
+  
+}
+
+
+[aria-label="Insert Link"] , 
+[aria-label="Insert Image"],
+[aria-label="Insert Code Block"],
+[aria-label="Remove Styles"] {
+  display: none !important;
+  /* CSS rules for elements with the specified aria-label value */
+}

@@ -1,0 +1,110 @@
+
+
+
+.nav-header{
+overflow: hidden;
+display: flex;
+justify-content: center;
+// padding: 1rem 0rem;
+margin-inline: 0.875rem;
+border-bottom: 1px solid $secondaryClr;
+min-block-size: 64px;
+}
+
+
+.sidebar{
+    position: fixed;
+    z-index: 1004;
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    transition: 0.5s;
+
+    
+}
+.smSidebar{
+    inline-size: 70px;
+    &:hover{
+        inline-size: 260px;
+        .show{
+            display: block !important;
+        }
+    }
+}
+.lgSidebar{
+    inline-size: 260px;
+    
+}
+.rightSide{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+   
+}
+
+.smRightSide{
+    left: 90px;
+    transition: 0.5s;
+}
+.lgRightSide{
+    left: 280px;
+    transition: 0.5s;
+}
+
+
+
+.sidebarMenu{
+    margin: 0;
+    margin-top:10px;
+    padding: 0;
+    margin-inline: 0.875rem;
+
+    
+
+    .menuList{
+        display: flex;
+        align-items: center;
+         padding: 6px 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        background:$primaryGradient;
+
+        &:hover{
+            background-color: $secondaryS4;
+        }
+    }
+
+
+    .sidebarDrop{
+        .sidebarDropOpen{
+            transition:all .4s ease;
+            height: 100px;
+            overflow: hidden;
+        }
+        .sidebarDropClose{
+            transition:all .4s ease;
+            height: 0px;
+            overflow: hidden;
+        }
+
+
+        .submenu{
+            div{
+                &:hover{
+                    background-color: $secondaryS4;
+                }
+            }
+            
+        }
+    }
+
+   
+}
+
+
+.custom-rating .react-rating-stars i {
+    font-size: 4px; /* Change this value to adjust the size of the stars */
+  }

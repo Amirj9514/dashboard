@@ -1,0 +1,42 @@
+@import './variables';
+
+
+// Basic Styling Files
+@import './color';
+@import './button';
+@import './border';
+@import './typography';
+@import './extra';
+
+
+
+// SCSS Components
+@import './components/sidebar';
+@import './components/inputFeild';
+
+
+
+.file-uploader {
+    padding: 20px;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+        border-color: $lightClr;
+    }
+  }
+  
+  .file-uploader.dragging {
+    background-color: $infoClr;
+  }
+  
+  .upload-button {
+
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+
+

@@ -1,0 +1,53 @@
+//----------------------------------------
+//  Border Color Class
+//----------------------------------------
+
+.primary-border{
+    border-color: $primaryClr;
+}
+.secondary-border{
+    border-color: $secondaryClr;
+}
+.success-border{
+    border-color: $successClr;
+}
+.danger-border{
+    border-color: $dangerClr !important;
+}
+.warning-border{
+    border-color: $warningClr;
+}
+.info-border{
+    border-color: $infoClr;
+}
+.dark-border{
+    border-color: $darkClr;
+}
+.light-border{
+    border-color: $lightClr;
+}
+
+.border-clr{
+    border-color:$borderClr;
+}
+
+
+//----------------------------------------
+//  Border Raduis Class
+//----------------------------------------
+
+
+.raduis-5{
+    border-radius:5px;
+}
+
+
+
+.border-size{
+    border-width: 0.05px !important;
+}
+
+
+
+
+
